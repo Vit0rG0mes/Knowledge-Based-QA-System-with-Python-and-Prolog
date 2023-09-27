@@ -1,20 +1,17 @@
-name('jahangirnagar university').
+name('Universidade Federal do Ceara Jardins de Anita').
 breif_description('Jahangirnagar University is a public university in Bangladesh, based in Savar Upazila, Dhaka. It is one of the top and only fully residential universities in Bangladesh. There are 34 departments, 4 institutes under six faculties.').
-location('jahangirnagar university stands on the west side of the Asian Highway, popularly known as the Dhaka-Aricha Road, and is 32 kilometres away from the capital').
+location('Rua Francisco Jose de Oliveira, s/n, Centro. Itapaje-CE. CEP: 62600-000').
 established('jahangirnagar university', '1970').
 first_vice_chancellor('Mafizuddin Ahmed (PhD in chemistry, Penn State)').
 current_vice_chancellor('Professor Doctor Farzan Islam').
 history('The university was established in 1970 by the Jahangirnagar Muslim University Ordinance of the government of Pakistan. Its first vice-chancellor, Mafizuddin Ahmed (PhD in chemistry, Penn State) took up office on 24 September 1970. The first group of students, a total of 150, were enrolled in four departments: Economics, Geography, Mathematics, and Statistics. Its formal inauguration was delayed until 12 January 1971, when the university was launched by Rear Admiral S. M. Ahsan, the chancellor.').
 area('697.56 acres which is 2.8 square kilometres').
-number_of_faculties('6').
-number_of_departments('34').
-number_of_institutes('4').
-faculty('faculty of mathematical and physical science').
-faculty('faculty of biological science').
-faculty('faculty of social science').
-faculty('faculty of arts and humanities').
-faculty('faculty of business studies').
-faculty('faculty of law').
+number_of_faculties('3').
+number_of_departments('9').
+number_of_institutes('1').
+faculty('Curso de Analise e Desenvolvimento de Sistemas').
+faculty('Curso de Seguranca da Informacao').
+faculty('Curso de Ciencias de Dados').
 
 faculties('faculty of mathematical and physical science, faculty of biological science, faculty of social science, faculty of arts and humanities, faculty of business studies, faculty of law').
 

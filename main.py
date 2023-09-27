@@ -48,8 +48,8 @@ while flg:
     asked_question = str(input("what is in your mind: ")).lower()
 
     if (
-        "name of the university" in asked_question
-        or "university name" in asked_question
+        "Qual o Nome da Universidade" in asked_question
+        or "nome do campus" in asked_question
     ):
         # Q: what is the name of the university?
         question = "UniversityName"
@@ -58,9 +58,9 @@ while flg:
         say_answers("The name of the university ", "", question, answers)
 
     elif (
-        "introduction" in asked_question
-        or "about ju" in asked_question
-        or "about jahangirnagar university" in asked_question
+        "Resumo" in asked_question
+        or "Fale sobre o campus" in asked_question
+        or "Sobre a Universiade Jamdins de Anita" in asked_question
     ):
         # Q: what is jahangirnagar university?
         question = "Introduction"
@@ -69,8 +69,8 @@ while flg:
         say_answers("", "", question, answers)
 
     elif (
-        "history of ju" in asked_question
-        or "history of jahangirnagar university" in asked_question
+        "Historia do Campus" in asked_question
+        or "Historia da Universidade Jadins de Anita" in asked_question
     ):
         # Q: history of jahangirnagar university.
         question = "History"
@@ -79,8 +79,8 @@ while flg:
         say_answers("Brief history: ", "", question, answers)
 
     elif (
-        "location of jahangirnagar university" in asked_question
-        or "situated" in asked_question
+        "Localizacao do Campus Jardins de Anita" in asked_question
+        or "Onde fica" in asked_question
     ):
         # Q: where is jahangirnagar university?
         question = "Loction"
@@ -114,8 +114,8 @@ while flg:
         )
 
     elif (
-        "number of faculties" in asked_question
-        or "how many faculties" in asked_question
+        "Numero de Cursos" in asked_question
+        or "Quantos curso ha" in asked_question
         and asked_question.find("faculty of") == -1
     ):
         # Q how many faculties are in jahangirnagr university
@@ -127,8 +127,8 @@ while flg:
         )
 
     elif (
-        "number of departments" in asked_question
-        or "how many departments" in asked_question
+        "Numero de Turmas" in asked_question
+        or "Quantas turmas ha" in asked_question
     ):
         # Q how many departments are in jahangirnagr university
         question = "Number_of_departments"
@@ -139,8 +139,8 @@ while flg:
         )
 
     elif (
-        "number of institutes" in asked_question
-        or "how many institutes" in asked_question
+        "Numero de institutos" in asked_question
+        or "Quantos institutos ha" in asked_question
     ):
         # Q how many institutes are in jahangirnagr university
         question = "Number_of_institutes"
